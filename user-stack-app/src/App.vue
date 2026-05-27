@@ -1,9 +1,9 @@
 <script setup>
-import Dashboard from "./views/Dashboard.vue"
+import Users from "./views/Users.vue"
 </script>
 
 <template>
-  <Dashboard />
+  <Users />
 </template>
 
 <style scoped></style>

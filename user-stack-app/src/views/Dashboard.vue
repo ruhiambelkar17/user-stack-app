@@ -4,6 +4,8 @@
       <div class="row">
         <div class="col">
           <form>
+            <h3>Sign In</h3>
+            <hr />
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"
                 >Email address</label
@@ -38,7 +40,7 @@
                 >Check me out</label
               >
             </div>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
@@ -53,36 +55,33 @@
 
 <style>
 .dashboard-container {
-  color: white;
+
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  background-image: url("@/assets/images/dashboard-bg.avif");
+  background-image: url("@/assets/images/bg1.png");
   background-size: cover;
   background-position: center;
 }
 
 .dashborad {
   height: 400px;
-  background-color: #0f211d;
+  /* background-color: #0f211d; */
   width: 500px;
   border-radius: 10px;
+  border: 1px solid grey;
   display: flex;
   align-items: center;
   justify-content: center;
   /* margin-right: 50px; */
 }
-.dashborad:hover {
-  background-color: #a8b78d;
-}
+
 .tile-text {
   font-size: 80px;
 }
 
-.btn {
-  background-color: #a8b78d;
-}
+
 </style>
